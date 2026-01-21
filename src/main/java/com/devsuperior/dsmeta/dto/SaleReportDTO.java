@@ -24,7 +24,7 @@ public class SaleReportDTO {
 		id = entity.getId();
 		date = entity.getDate();
 		amount = entity.getAmount();
-		sellerName = entity.toString();
+		sellerName = entity.getSeller().getName();
 	}
 
 	public Long getId() {
